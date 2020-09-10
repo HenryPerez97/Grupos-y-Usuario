@@ -1,0 +1,17 @@
+//  ingresar a modo  su -
+// ingresar la contraseña 
+//  crear un grupo casa 
+   sudo  groupadd  casa
+   
+//  crear dos usuario 
+    sudo useradd  Yanira
+    sudo useradd Fabricio
+    
+//  agregaremos  los usuaros al grupo casa 
+sudo adduser Yanira  casa
+sudo adduser  Fabricio casa
+
+// Luego cambiar  el nombre del grupo  
+    sudo  groupmod  -n
+    agregamos  el nombre nuevo  del grupo que vamos a  cambiar 
+    sudo  groupmod  -n  Familia casa
